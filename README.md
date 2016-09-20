@@ -1,7 +1,7 @@
 In order to install Wordpress Phimpme and test the system on your local host, please follow the following steps:
 
 
-1. Restore database from sql file in wordpress/website/sql folder
+1. Restore database from sql file in wordpress/sql folder
   a. Login to mysql use command line:
      mysql -uroot -p
   b. create phimpme_drupal database : 
@@ -11,7 +11,7 @@ In order to install Wordpress Phimpme and test the system on your local host, pl
   c. Restore database :
      mysql -u root -p phimpme_wordpress < link to phimpme_wordpress.sql file
      e.g :
-     mysql -u root -p phimpme_wordpress < ~/phimpme.cms/wordpress/website/sql/phimpme_wordpress.sql
+     mysql -u root -p phimpme_wordpress < ~/phimpme.cms/wordpress/sql/phimpme_wordpress.sql
 
 
 2. Move wordpress website folder to /var/www/ or your specific lolalhost directory and change permission for this folder.
